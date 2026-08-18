@@ -1,10 +1,10 @@
 ﻿{
-    "version":  "v13.5.7",
+    "version":  "v13.5.8",
     "title":  "公司 AI 后台接入与批量出图稳定性更新",
     "published_at":  "2026-08-18",
-    "download_url":  "https://github.com/gjade3702-cell/ai-image-terminal-releases/releases/download/v13.5.7/AI-Image-Terminal.exe",
-    "sha256":  "79af5d852951890e662ac226997140ee0fa95892e284e29262592b3cd7435929",
-    "size":  76107740,
+    "download_url":  "https://github.com/gjade3702-cell/ai-image-terminal-releases/releases/download/v13.5.8/AI-Image-Terminal.exe",
+    "sha256":  "24c30270e297875d247bc5bc2e50f379c27fee31c17bf94ddc5ca049b17e65cc",
+    "size":  76106705,
     "notes":  [
                   "接入公司 AI 后台，支持 GPT Image 2 文生图和图生图。",
                   "本地参考图可直接上传，不再依赖素材库 group_id。",
@@ -12,6 +12,7 @@
                   "批量任务支持多张输入、多语言和多张结果下载。",
                   "修复后台返回 0.png 时的文件覆盖问题，新增安全命名和重名保护。",
                   "新增画面比例、画质和模型选择配置。",
-                  "修复同一张结果图的多个镜像地址被重复下载的问题。"
+                  "修复同一张结果图的多个镜像地址被重复下载的问题。",
+                  "客户端和更新助手名称统一为 AI出图终端。"
               ]
 }
