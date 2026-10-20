@@ -1,17 +1,15 @@
 {
-  "version": "v13.5.10",
-  "title": "模型导入、批量命名与内置更新",
+  "version": "v13.5.11",
+  "title": "常用图片尺寸与按原图尺寸小更新",
   "published_at": "2026-10-20",
-  "download_url": "https://github.com/gjade3702-cell/ai-image-terminal-releases/releases/download/v13.5.10/AI-Image-Terminal.exe",
-  "sha256": "d9fddab92cffebc7e842538dc7713e5aa294460ed861ce8763c7536747fb71d6",
-  "size": 77063003,
+  "download_url": "https://github.com/gjade3702-cell/ai-image-terminal-releases/releases/download/v13.5.11/AI-Image-Terminal.exe",
+  "sha256": "1e315e2c267d91df147244fd2963c107a56f7c69dc961086c5c17b1ea3f3d204",
+  "size": 77068933,
   "notes": [
-    "新增英合海外 S-GPT Image 2、2.5 Flare、2.5 Sunburst 文生图和图生图，共六项能力。",
-    "模型管理支持粘贴 Markdown 文档添加、更新和删除模型，重启后自动加载。",
-    "更新功能已内置，使用版本号旁的更新按钮即可，无需单独放置更新助手。",
-    "批量命名更新 25 个品类，兼容旧名称，移除素材方向字段。",
-    "新增可编辑标签库，支持新建、改名、删除和保存复用，仅图片和视频追加标签。",
-    "语言和品类菜单支持搜索、最近使用、键盘选择及点击外部自动收起，优化加载速度。",
-    "修复中文字体显示、标签操作逻辑及手动尺寸保存。"
+    "图片尺寸新增横屏、竖屏 720P / 1080P 和正方形预设，标注 9:16、16:9、1:1 与方向。",
+    "支持像素宽高的图生图模型新增“按原图尺寸”，批量图片分别读取自己的参考图尺寸。",
+    "修复尺寸下拉中文字体，尺寸说明仅用于显示，保存与提交使用原始参数。",
+    "包含上一版全部功能：英合海外六项图片能力、Markdown 模型导入、可编辑标签库、语言与品类搜索、内置更新。",
+    "更新保留本地 Key、个人配置、自定义模型、标签和输出素材。"
   ]
 }
