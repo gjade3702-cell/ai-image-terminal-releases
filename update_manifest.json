@@ -1,15 +1,18 @@
 {
-  "version": "v13.5.13",
-  "title": "Image Lab 渠道与完整生成参数更新",
-  "published_at": "2026-10-21",
-  "download_url": "https://github.com/gjade3702-cell/ai-image-terminal-releases/releases/download/v13.5.13/AI-Image-Terminal.exe",
-  "sha256": "9a2498daed56007ab4ead8ffd97393809b9f4fdbdc59488beac6063a50dd1f70",
-  "size": 76891817,
+  "version": "v13.5.14",
+  "title": "升级到 v13.5.14 网页桌面版",
+  "published_at": "2026-10-23",
+  "download_url": "https://github.com/gjade3702-cell/ai-image-terminal-releases/releases/download/v13.5.14/AI-Image-Terminal-Web-Preview.exe",
+  "sha256": "ad5d48693d72b314d7796c5ba63061845c68b8089f9637ea36972457f2431504",
+  "size": 89627045,
   "notes": [
-    "新增 Image Lab 生图渠道，支持文生图、图生图、批量队列、自动下载和本地命名，无需公司 API Key。",
-    "新增 Image Lab 参数窗口：每任务张数、Images/Responses 模式、主模型、输出格式、背景、压缩、内容审核和适用模型的输入保真度。",
-    "参数按模型分别保存，支持 4K 横竖尺寸预设，自动处理 JPEG 背景和 Responses 单张限制。",
-    "上游返回数量、尺寸、画质或格式不符时显示差异，按实际结果保存，不自动补发请求。",
-    "已通过 89 项回归测试，并实测文生图、图生图和本地下载；保留本地 Key、个人配置、自定义模型和输出素材。"
+    "本次更新将原Tk界面升级为新的网页桌面界面；原配置、Key和输出图片继续保留。",
+    "新版HeroUI网页桌面界面，支持Image Lab、公司后台及RunningHub三个渠道。",
+    "批量翻译合并语种搜索与智能勾选，提供独立任务概要确认，模板选择/编辑/管理分层。",
+    "地区与货币按需启用，支持147个内置地区与自定义地区，AI换算货币及同语种多市场。",
+    "参考图片采用紧凑堆叠卡片，可集中查看、添加、移除或一键清空。",
+    "Image Lab默认auto尺寸，常用宽高比通过提示词注入，比例标注横版/竖版。",
+    "提示词历史收藏、网页批量命名工具、日期范围统计、任务日志与真实失败详情。",
+    "167项回归通过；更新保留本地配置、密钥、自定义地区和已生成图片。"
   ]
 }
