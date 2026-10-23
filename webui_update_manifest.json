@@ -1,0 +1,18 @@
+{
+  "channel": "webui",
+  "version": "v13.5.14",
+  "title": "网页桌面版与批量翻译本地化更新",
+  "published_at": "2026-10-23",
+  "download_url": "https://github.com/gjade3702-cell/ai-image-terminal-releases/releases/download/v13.5.14/AI-Image-Terminal-Web-Preview.exe",
+  "sha256": "ad5d48693d72b314d7796c5ba63061845c68b8089f9637ea36972457f2431504",
+  "size": 89627045,
+  "notes": [
+    "新版HeroUI网页桌面界面，支持Image Lab、公司后台及RunningHub三个渠道。",
+    "批量翻译合并语种搜索与智能勾选，提供独立任务概要确认，模板选择/编辑/管理分层。",
+    "地区与货币按需启用，支持147个内置地区与自定义地区，AI换算货币及同语种多市场。",
+    "参考图片采用紧凑堆叠卡片，可集中查看、添加、移除或一键清空。",
+    "Image Lab默认auto尺寸，常用宽高比通过提示词注入，比例标注横版/竖版。",
+    "提示词历史收藏、网页批量命名工具、日期范围统计、任务日志与真实失败详情。",
+    "167项回归通过；更新保留本地配置、密钥、自定义地区和已生成图片。"
+  ]
+}
