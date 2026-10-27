@@ -1,18 +1,16 @@
 {
-  "version": "v14.0.0",
-  "title": "AI 出图终端 v14.0.0 正式版",
-  "published_at": "2026-10-26",
-  "download_url": "https://github.com/gjade3702-cell/ai-image-terminal-releases/releases/download/v14.0.0/AI-Image-Terminal-Web-Preview.exe",
-  "sha256": "172f1e9a2ca4cfac09d16123efbecb13c65462e0532f63ac957ae3cbfd190e5e",
-  "size": 90458384,
+  "version": "v14.0.1",
+  "title": "AI 出图终端 v14.0.1 正式版",
+  "published_at": "2026-10-27",
+  "download_url": "https://github.com/gjade3702-cell/ai-image-terminal-releases/releases/download/v14.0.1/AI-Image-Terminal-Web-Preview.exe",
+  "sha256": "e0d14a1f73acf0a8de234184eb17994e7932fe66367fbeecf9504a9aef289f00",
+  "size": 90478157,
   "notes": [
-    "v14.0.0为新版首个大版本正式版，汇总前两次测试阶段的三渠道工作台、批量翻译、地区货币与主题标题栏。",
-    "新增Grok图片和视频模型，支持文生视频、图生视频、分辨率、时长、音频及原片预览下载。",
-    "Image Lab异步任务与历史批次恢复，超期不明任务阻止重交，续查不再依赖原参考图。",
-    "RunningHub工作流API JSON自动配置、删除与常用参数管理；名称统一为AI中台。",
-    "批量命名单次执行及备份清理，新增文件夹整理，自动同步作品和参考图路径。",
-    "补齐真实错误原因、错误码中文建议、损坏配置恢复及内置可搜索操作说明。",
-    "新增UISFX三种提示音风格、音量和试听；草稿恢复、参考图去重和大队列体验优化。",
-    "保留个人配置、密钥和输出素材；请先结束任务再升级。Image Lab结果保留24小时，AI换算金额需人工核对。"
+    "修复 RunningHub 旧配置自动迁移路径：支持程序同目录和旧 dist 等常见位置，不再依赖文件夹必须叫“出图终端v1”。",
+    "修复首次漏读后生成空配置、后续无法自动补迁移的问题；保留已有非空工作流列表，旧配置文件不改写。",
+    "完善手动导入旧配置：兼容 UTF-8 BOM，显示识别、新增和跳过数量；选错结构或无可识别工作流时说明原因，不覆盖同 ID 的现有配置。",
+    "增加启动更新检查：每次启动在后台检查一次，发现新版本时提醒；无更新或检查失败时不打扰，下载安装仍由用户确认。",
+    "批量翻译增加“已选 X 个语种”及完整语种代码摘要，搜索时仍能核对全部已选内容。",
+    "取消 Grok、GPT 等模型额外的本地并发上限，统一使用用户设置的 1–20；云端容量限制仍由服务端决定。"
   ]
 }
