@@ -1,16 +1,15 @@
 {
-  "version": "v14.0.1",
-  "title": "AI 出图终端 v14.0.1 正式版",
-  "published_at": "2026-10-27",
-  "download_url": "https://github.com/gjade3702-cell/ai-image-terminal-releases/releases/download/v14.0.1/AI-Image-Terminal-Web-Preview.exe",
-  "sha256": "e0d14a1f73acf0a8de234184eb17994e7932fe66367fbeecf9504a9aef289f00",
-  "size": 90478157,
-  "notes": [
-    "修复 RunningHub 旧配置自动迁移路径：支持程序同目录和旧 dist 等常见位置，不再依赖文件夹必须叫“出图终端v1”。",
-    "修复首次漏读后生成空配置、后续无法自动补迁移的问题；保留已有非空工作流列表，旧配置文件不改写。",
-    "完善手动导入旧配置：兼容 UTF-8 BOM，显示识别、新增和跳过数量；选错结构或无可识别工作流时说明原因，不覆盖同 ID 的现有配置。",
-    "增加启动更新检查：每次启动在后台检查一次，发现新版本时提醒；无更新或检查失败时不打扰，下载安装仍由用户确认。",
-    "批量翻译增加“已选 X 个语种”及完整语种代码摘要，搜索时仍能核对全部已选内容。",
-    "取消 Grok、GPT 等模型额外的本地并发上限，统一使用用户设置的 1–20；云端容量限制仍由服务端决定。"
-  ]
+    "version":  "v14.1.0",
+    "title":  "AI 出图终端 v14.1.0 正式版",
+    "published_at":  "2026-10-30",
+    "download_url":  "https://github.com/gjade3702-cell/ai-image-terminal-releases/releases/download/v14.1.0/AI-Image-Terminal-Web-Preview.exe",
+    "sha256":  "f189d2defdeddfc010089a3897ea3d7a2c543d007893d76c7362cdc1df54ce23",
+    "size":  89832503,
+    "notes":  [
+                  "AI中台新增 Gemini Omni、Kling、Wan 和 Seedance 视频模型，支持文生视频及部分模型的首帧、尾帧生成；可按模型选择支持的时长、比例和分辨率。",
+                  "生成任务运行时可继续编辑提示词和参数，并将下一批任务加入队列。",
+                  "MCP 与主程序的输出目录分开管理；使用 MCP 调用时不再改变手动生成的输出目录。",
+                  "完善更新程序运行方式，减少连续更新时因文件占用导致的失败。",
+                  "改进 RunningHub 旧配置迁移，已有工作流列表也可自动补充旧配置中尚未导入的工作流。"
+              ]
 }
