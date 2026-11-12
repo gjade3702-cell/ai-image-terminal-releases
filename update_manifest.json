@@ -1,13 +1,11 @@
 {
-  "version": "v14.1.1",
-  "title": "AI 出图终端 v14.1.1 正式版",
+  "version": "v14.1.2",
+  "title": "AI 出图终端 v14.1.2 正式版",
   "published_at": "2026-11-12",
-  "download_url": "https://github.com/gjade3702-cell/ai-image-terminal-releases/releases/download/v14.1.1/AI-Image-Terminal-Web-Preview.exe",
-  "sha256": "983561f1b43de68b4322e5126ded6d3c85fa0197bf49ac0b14ddf2496b9db6c4",
-  "size": 89800642,
+  "download_url": "https://github.com/gjade3702-cell/ai-image-terminal-releases/releases/download/v14.1.2/AI-Image-Terminal-Web-Preview.exe",
+  "sha256": "59dcc41f6fe2c8d5f00dc93e83ef64a7a54bbdfa893086b4f0000ceef050ba66",
+  "size": 90433288,
   "notes": [
-    "批量翻译确认任务支持按语种设置翻译图片数量。",
-    "使用数量进度条和直接输入控件，任务总数随设置实时更新。",
-    "同一语种的多个地区共用图片数量限制，减少不需要的翻译任务。"
+    "修复 Conda 环境打包遗漏 `sqlite3.dll`，导致正式 EXE 启动时报 `_sqlite3` DLL 缺失的问题。"
   ]
 }
