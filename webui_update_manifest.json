@@ -1,16 +1,14 @@
 {
-    "version":  "v14.1.0",
-    "title":  "AI 出图终端 v14.1.0 正式版",
-    "published_at":  "2026-10-30",
-    "download_url":  "https://github.com/gjade3702-cell/ai-image-terminal-releases/releases/download/v14.1.0/AI-Image-Terminal-Web-Preview.exe",
-    "sha256":  "f189d2defdeddfc010089a3897ea3d7a2c543d007893d76c7362cdc1df54ce23",
-    "size":  89832503,
-    "notes":  [
-                  "AI中台新增 Gemini Omni、Kling、Wan 和 Seedance 视频模型，支持文生视频及部分模型的首帧、尾帧生成；可按模型选择支持的时长、比例和分辨率。",
-                  "生成任务运行时可继续编辑提示词和参数，并将下一批任务加入队列。",
-                  "MCP 与主程序的输出目录分开管理；使用 MCP 调用时不再改变手动生成的输出目录。",
-                  "完善更新程序运行方式，减少连续更新时因文件占用导致的失败。",
-                  "改进 RunningHub 旧配置迁移，已有工作流列表也可自动补充旧配置中尚未导入的工作流。"
-              ],
-    "channel":  "webui"
+  "version": "v14.1.1",
+  "title": "AI 出图终端 v14.1.1 正式版",
+  "published_at": "2026-11-12",
+  "download_url": "https://github.com/gjade3702-cell/ai-image-terminal-releases/releases/download/v14.1.1/AI-Image-Terminal-Web-Preview.exe",
+  "sha256": "983561f1b43de68b4322e5126ded6d3c85fa0197bf49ac0b14ddf2496b9db6c4",
+  "size": 89800642,
+  "notes": [
+    "批量翻译确认任务支持按语种设置翻译图片数量。",
+    "使用数量进度条和直接输入控件，任务总数随设置实时更新。",
+    "同一语种的多个地区共用图片数量限制，减少不需要的翻译任务。"
+  ],
+  "channel": "webui"
 }
